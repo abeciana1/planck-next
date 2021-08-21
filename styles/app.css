@@ -1,0 +1,36 @@
+main {
+    left: 0;
+}
+
+body {
+    background-color: #ededf1;
+    font-family: 'Libertinus';
+    overflow-x: hidden;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+hr.solid {
+    border-top: 2px solid black;
+}
+
+.toc ol li a {
+    text-decoration: underline;
+    color: #E73508;
+}
+
+.page-paper {
+    /* margin-right: auto;
+    margin-left: auto; */
+    margin-top: 3%;
+    height: auto;
+}
+
+/* 
+@media (min-width: 593px) {
+    .page-paper {
+        margin-left: 10%;
+    }
+} */
