@@ -4,6 +4,10 @@ import Head from 'next/head'
 import 'tailwindcss/tailwind.css'
 import '../styles/app.css'
 
+// TODO -> create JSON output export for hackmd doc
+
+//* https://hackmd.io/@cli/SyMyfILq8#hackmd-cli-export-NOTEID-OUTPUT
+
 
 function MyApp({ Component, pageProps }) {
   return (
