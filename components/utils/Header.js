@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = (props) => {
+const Header = () => {
 
     return (
         <React.Fragment>
@@ -8,14 +8,9 @@ const Header = (props) => {
                 className="flex justify-between"
             >
                 <img
-                    src="./planck-logo.svg"
+                    src="/planck-logo.svg"
                     className="w-1/6"
                 />
-                {/* <p
-                    className="planck-title self-center"
-                >
-                    Planck Manuscripts Vol. 1 (2021)
-                </p> */}
             </div>
             <p
                     className="planck-title text-center py-5"
@@ -27,3 +22,9 @@ const Header = (props) => {
 }
 
 export default Header
+
+                // {/* <p
+                //     className="planck-title self-center"
+                // >
+                //     Planck Manuscripts Vol. 1 (2021)
+                // </p> */}

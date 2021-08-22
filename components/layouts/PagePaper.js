@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../utils/Header'
+// import Header from '../utils/Header'
 
 const PagePaper = ({children}) => {
 
